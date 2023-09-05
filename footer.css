@@ -1,0 +1,105 @@
+/* =========================== Footer ===============================*/
+
+footer {
+    background: #17a7ed;
+    color: white;
+    padding-top: 5rem;
+    font-size: 0.9rem;
+  }
+  
+  .footer_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
+  }
+  
+  .footer_container ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer_container > div h4 {
+    margin-bottom: 1.2rem;
+    color: white; 
+    font-weight: bold;
+  }
+  
+  .footer_container a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer_1 p {
+    margin: 0 0 2rem;
+  }
+  
+  footer ul li {
+    margin-bottom: 0.7rem;
+    list-style: none;
+  }
+  
+  footer ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer_socials {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+  }
+  .footer_copyright {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1.2rem 0;
+    border-top: 1px solid var(--color-bg2);
+    background-color: white;
+    color: black;
+  }
+  
+  /* END FOOTER */
+
+  @media screen and (max-width: 600px) {
+  /* ======================FOOTER=========================*/
+  .footer_container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 2rem;
+  }
+  .footer_1 p {
+    margin: 1rem auto;
+  }
+  .footer_socials {
+    justify-content: center;
+  }
+}
+
+/* END FOOTER */
+
+#progress{
+    background-color: #17a7ed;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    width: 70px;
+    height: 70px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+
+#progress-value{
+    display: block;
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    background-color: #fff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 35px;
+    color: #001a2e;
+}
+
