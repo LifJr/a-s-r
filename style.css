@@ -256,13 +256,13 @@ header.shadow #search-icon{
 .service {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("./images/b-3.jpg") fixed center center no-repeat;
     background-size: cover;
-    height: 50vh; 
+    height: 60vh; 
     color: white; 
 }
 
 
 
-section #voiture {
+section voiture {
     min-height: 300px;
     padding: 20px 0; 
     margin: 10px 0;
@@ -358,6 +358,10 @@ section h1 {
     .about-text h2{
         font-size: 1.4rem;
     }
+
+    .service {
+        height: 100vh;
+    }
 }
 
 @media (max-width: 360px){
@@ -372,5 +376,8 @@ section h1 {
     }
     .home-text p br{
         display: contents;
+    }
+    .service {
+        height: 100vh;
     }
 }
